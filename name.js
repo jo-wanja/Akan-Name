@@ -76,7 +76,7 @@ function chooseName(){
   function submit(){
      console.log("Your Akan Name is, "+ chooseName());
    
-       return document.getElementById("final").innerHTML = ["Your Akan Name is", chooseName()];
+       return document.getElementById("final").innerHTML = ["Your Akan Name is", chooseName()]; 
    
   } 
 
