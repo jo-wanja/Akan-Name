@@ -2,55 +2,124 @@
 <html lang="en">
   <head>
     <title>Akan Name</title>
+    <link rel="icon" type="image/x-icon" href="/images/icons8-african-mask-64 (1).png ">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Fira+Sans+Extra+Condensed:ital,wght@1,100&family=Quattrocento+Sans&family=Raleway:wght@200&family=Taviraj:wght@200&display=swap" rel="stylesheet">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="name.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          Akan Name
-        </a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Get Name</a>
-          </li>
-        </ul>
+
+<!-- NAV-BAR -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/icons8-african-mask-64 (1).png" width="30" height="24" class="d-inline-block align-text-top">
+      <span>Akan Name</span> 
+    </a>
+    <ul >
+      <li >
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li >
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li >
+        <a class="nav-link" href="#get">Get Name</a>
+      </li>
+    </ul>
+  </div>
+</nav>  
+
+   <div class="container">
+   
+    <div class="container">
+       <h1>The Akan Naming Tradition</h1>
+       <h2 id="about">About</h2>
+       <p>The Akan are a tribe from Ghana.They are known to frequently name their kids based on the day they were born.
+         this is an old tradition that was preserved even as  Africans were being sold all over the Carribean.in Jamaica, the old naming system is still used and    
+        this is evidenced by the popular Jamaican singer <span>Koffee</span>. Other famous people getting their names from the system include <span>Kwame Nkurumah</span> the first president of Ghana,
+        and <span>Kofi Anaan</span> the former UN Sec-general.
+       </p>
+
+       <div id="male">
+         <img src="images/african (1).png" alt="african man" width="100" height="100">
+        <h3>The Male Name-Day Pair </h3>
+          <ul>
+            <li>Sunday: Kwasi </li>
+            <li>Monday: Kwadwo   </li>
+            <li>Tuesday: Kwabena   </li>      
+            <li> Wednesday:Kwaku   </li>          
+            <li>  Thursday: Yaw      </li>        
+            <li> Friday: Kofi        </li>      
+            <li> Saturday: Kwame    </li>
+            </ul>
+        </div>
+
+        <div id="female">
+          <img src="images/african.png" alt="african woman" width="100" height="100" >
+          <h3>The Female Name-Day Pairs </h3>
+
+            <ul>
+              <li>Sunday: Akosua </li>
+              <li>Monday: Adwoa  </li>
+              <li>Tuesday: Abenaa </li>
+              <li> Wednesday: Akua </li>
+                <li>Thursday:  Yaa </li>
+                  <li>Friday: Afua </li>
+                    <li>Saturday: Ama </li>
+            </ul>
+          
+        </div>
+
+
+    </div>
+    <!-- FORM -->
+    <h3 id="get">Get your Name!</h3>
+    <p> Fill in your details in the forms below  and click <span>submit</span> to get your Akan name.</p>
+
+
+    <div id="form">
+      
+      <div class="col-auto" id="calender">
+        <label for="calender">choose birthday</label>
+        <input type="date" id="date">
       </div>
-    </nav>  
-    <form class="row gy-2 gx-3 align-items-center">
-      <div class="col-auto">
-        <input type="date"  placeholder="Day">
+    
+      
+      <div class="col-auto" id ="chooseGender">
+        <label for="chooseGender">choose your gender</label>
+          <select class="form-select" id="gender" onclick= "chooseName()">
+            <option selected id="choose" value="1">choose gender</option>
+            <option id="female" value="Female" >Female</option>
+            <option id="male" value="Male" >Male</option>
+          </select>   
       </div>
-      <!-- <div class="col-auto">
-        <input type="month"  placeholder="Month">
-      </div>
-      </div> -->
-      <div class="col-auto">
-        <select class="form-select">
-          <option selected>Choose Gender</option>
-          <option value="1">Female</option>
-          <option value="2">Male</option>
-        </select>
+      
+      
+      <div class="col-auto" id="submit">
+        <label for="submit">submit your data</label>
+        <button onclick="submit()">Submit</button>
       </div>
 
-      <div class="col-auto">
-        <button >Get name</button>
-      </div>
-    </form>
+    </div>
 
+    <p id="final">heya!</p>
 
+   </div>
+
+   <footer> &copy 2022 by Josephine Wanja</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
