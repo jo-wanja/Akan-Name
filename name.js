@@ -23,7 +23,7 @@ function chooseName(){
 
   if (value===fem){
     let femaleNames ={
-      0: "Akosua",
+      0: "Akosua", 
       1: "Adwoa",
       2: "Abenaa",
       3: "Akua",
