@@ -7,7 +7,7 @@ This is a site where you can get assigned an Akan name based on the day you were
 * An internet connection
 * a browser 
 * a computer
-* if you have all of the above, all that's left is to click on this link https://jo-wanja.github.io/portfolio/
+* if you have all of the above, all that's left is to click on this link https://jo-wanja.github.io/Akan-Name/
 ## Technologies Used
 CSS & HTML & JAVASCRIPT
 ## BDD
