@@ -1,0 +1,99 @@
+body{
+  background-image: url(/images/v1045-16a.jpg);
+}
+
+.container{
+  background-color: rgb(255, 202, 104);
+}
+footer{
+  height: 3em;
+  width: 100%;
+  background-color: rgb(157, 180, 103);
+  text-align: center;
+}
+
+#male{
+  float: right;
+}
+ #final{
+   padding: 4%;
+ }
+
+ .col-auto{
+   float: left;
+ }
+
+ button{
+   border-radius: 12px;
+   background-color: rgb(157, 180, 103);
+   color: antiquewhite;
+   border-color: rgb(157, 180, 103);
+ }
+  .form-select{
+    border-radius: 12px;
+   background-color: rgb(157, 180, 103);
+   color: antiquewhite;
+   border-color: rgb(157, 180, 103);
+  }
+  
+  #date{
+    border-radius: 12px;
+    background-color: rgb(157, 180, 103);
+    color: antiquewhite;
+    border-color: rgb(157, 180, 103);
+    
+  }
+
+    nav li {
+     display: inline;
+    float: left;
+    }
+
+    nav li a {
+      color: rgb(255, 202, 104);
+      font-size: 1.7em;
+
+
+    }
+    h1{
+      font-family: 'Fira Sans Extra Condensed', sans-serif;
+      font-size:4em;
+    
+    }
+    
+    h2{
+      font-family: 'Taviraj', serif;
+    }
+    
+    p{
+      font-family: 'Quattrocento Sans', sans-serif;
+    }
+    
+    h3{
+      font-family: 'Taviraj', serif;
+    }
+
+    span{
+      font-family:Codystar, cursive; 
+      font-weight: bold;
+      color: rgb(73, 2, 2);
+      font-size: 1.6em;
+    }
+    
+    
+   #male  {
+      font-family: 'Quattrocento Sans', sans-serif;
+      list-style-image: url(images/icons8-african-mask-64.png) ;
+    }
+
+    #female  {
+      font-family: 'Quattrocento Sans', sans-serif;
+      list-style-image: url(images/icons8-african-mask-64.png) ;
+    }
+
+    #final{
+    
+    font-family: 'Taviraj', serif;
+    font-size: 2em;
+    
+   }
