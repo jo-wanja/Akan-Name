@@ -45,7 +45,7 @@ function chooseName(){
   }  
 
     else if(value==="1"){
-      return alert("invalid choice!");
+      return alert("invalid choice!"); 
     }
 
     else{
