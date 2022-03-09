@@ -82,12 +82,12 @@ footer{
     
    #male {
       font-family: 'Quattrocento Sans', sans-serif;
-      list-style-image: url(images/icons8-african-mask-64.png) ;
+      list-style-image: url('../images/icons8-african-mask-64.png') ;
     }
 
     #female  {
       font-family: 'Quattrocento Sans', sans-serif;
-      list-style-image: url(images/icons8-african-mask-64.png) ;
+      list-style-image: url('../images/icons8-african-mask-64.png') ;
     }
 
     #final{
